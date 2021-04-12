@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* 브라우저 마다 랜더링 방식(화면을 보여주는)이 다르기 때문에 초기값을 0으로 준다 */
+}
+h1{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 50%;
+}
+li{
+    font-size: 24px;
+    border: 1px solid #333;
+    background-color: #888;
+    float: left;
+    
+}
+ul{
+    list-style: none;
+    border: 1px solid red;
+    overflow: hidden;
+    /*자식 태그에 float 태그가 있을시 영역을 인지할수없는 상황을 막아주는 방법*/
+}
+#li1{
+    margin: 20px;
+}
+#li2{
+    padding: 20px;
+}
+#li3{
+    margin-top: 20px;/* mt */
+    margin-right: 20px;/* mr */
+    margin-bottom: 20px;/* mb */
+    margin-left: 20px;/* ml */
+}
+#li4{
+    
+}
+
